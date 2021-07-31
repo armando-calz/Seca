@@ -1,6 +1,6 @@
 body
 {
-background:#B1BFC6;
+background:#E1F0F9;
 color: #333;
 text-align: center;
 margin: 0;
@@ -45,7 +45,7 @@ button
   font-size: 15.5px;
   font-family: "helvetica";
   font-weight: lighter;
-  background-color: #DAECFA;
+  background-color: #B4DFFC;
   color: #344A55;
   border: 1.9px solid #9E9E92;
   border-radius: 2.5px;
@@ -95,7 +95,7 @@ button
   font-size: 15.5px;
   font-family: "helvetica";
   font-weight: lighter;
-  background-color: #DAECFA;
+  background-color: #B4DFFC;
   color: #344A55;
   border: 1.9px solid #9E9E92;
   border-radius: 2.5px;
@@ -119,9 +119,8 @@ padding-left: 10px;
 
 .Login-description
 {
-  background:#B1BFC6 ;
+  background:#E1F0F9 ;
   color: #344A55;
-  text-align: justify;
   font-size: 18px;
   font-family: "helvetica";
   font-weight: lighter;
@@ -129,6 +128,7 @@ padding-left: 10px;
   margin: 1.5% auto;
   padding: 0em 0 0.5em 0em;
   padding-bottom: 15px;
+  text-align: justify;
 }
 .Login-description-subtitle
 {

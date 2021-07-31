@@ -1,15 +1,21 @@
-//alert("www.seca.com quiere acceder a su ubicación, ¿desea permitir?")
-//<a href="https://www.google.com.mx/maps/search/servicios/@19.531244,-99.266656,13.36z"target="_blank">
+swal("importante","www.seca.com quiere acceder a su ubicación, ¿desea permitir?","warning",{buttons:["no","si"]});
 var usuario = document.getElementById("textoUsuario").value;
-var contraseña = document.getElementById("textoContraseña").value;
-var passw = parseInt(contraseña.value);
-var uregist = "19"
-console.log(passw);
-
+//var contraseña = document.getElementById("textoContraseña").value;
+//var passw = parseInt(contraseña.value);
+//var validPasswords = [19, 20, 21]
+//validPasswords.includes(contraseña)
 function FunIniciar()
 {
-  if (passw = "19")
+  var contraseña = document.getElementById("textoContraseña").value;
+  var validPasswords = "19"
+  console.log(contraseña);
+  console.log(validPasswords);
+  if(validPasswords == contraseña)
   {
-    console.log("agar")
+    window.open("https://www.google.com.mx/maps/search/servicios/@19.531244,-99.266656,13.36z");
+  }
+  else
+  {
+    swal("La cotraseña es incorrecta","","error");
   }
 }
